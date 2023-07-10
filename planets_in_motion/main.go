@@ -63,7 +63,7 @@ func getHandler(c *fiber.Ctx) error {
 	}
 
 	return c.JSON(&fiber.Map{
-		"serviceName":   "Ominous",
+		"serviceName":   "Planetary Motion",
 		"css":           "color: green;",
 		"horoscopeText": Horoscope,
 	})
